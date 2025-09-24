@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(89, 131, 146);
+    margin: 0;
+    text-align: center;
+}
+
+/* Remove background from everything */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box2 {
+    width: 100%;
+    height: 10vh;
+    border-bottom: 2px double rgb(174, 195, 176);
+    background-color: rgb(1, 22, 30);
+    display: flex;
+}
+
+#box {
+    margin: 70px auto;
+    background-color: rgb(18, 69, 89);
+    height:300px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Fix input & button */
+#City {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    color: white;
+    cursor: pointer;
+}
+
+
+.box2{
+    color: aliceblue;
+    text-size-adjust: 30px;
+    font-family: "Calistoga", serif;
+    text-align: left;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-shadow: 3px 4px 8px wheat;
+}
+
+#box > p{
+    margin-top: 16px;
+    padding-top: 10px;
+    text-overflow: ellipsis;
+}
+
+.box2 > img{
+    height: 67px;
+    width: 100px;
+    margin-left: auto;
+}
